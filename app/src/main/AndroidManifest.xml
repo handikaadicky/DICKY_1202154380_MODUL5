@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.handikaadicky.DICKY_1202154380_MODUL5">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.handikaadicky.DICKY_1202154380_MODUL5.activity_main"
+            android:label="To Do List">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.handikaadicky.DICKY_1202154380_MODUL5.addtodo"
+            android:label="Add To Do"/>
+        <activity android:name="com.example.handikaadicky.DICKY_1202154380_MODUL5.Setting" android:parentActivityName="com.example.handikaadicky.DICKY_1202154380_MODUL5.activity_main" android:label="Setting">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.example.handikaadicky.DICKY_1202154380_MODUL5.activity_main"/></activity>
+    </application>
+
+</manifest>
